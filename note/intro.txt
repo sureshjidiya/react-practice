@@ -31,3 +31,14 @@ class Welcome extends React.Componets {
         return 
     }
 }
+
+* Jsx With React
+-> Jsx ( javascript XML ) is compbine of HTML and javascript.
+-> 
+ // without jsx 
+    return React.createElement('p',null,'Hello there');
+ Or 
+ // With jsx
+    return (
+        <p>Hello there</p>
+    );   
