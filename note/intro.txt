@@ -1,0 +1,33 @@
+* React
+-> React is javascript library not a framwork.
+-> Use: UI interface.
+
+* Create React App
+-> Install node js. 
+-> version: Node >= 14.0.0 and npm >= 5.6 
+cmd:
+npx create-react-app my-app
+cd my-app
+npm start 
+-> in this npm version 5.2+ than use npx.
+
+* Componets
+-> Threre are two types of component. ( Functional & Class )
+-> Component name start with Capital letter.
+==============================================
+
+1. Functional 
+-------------
+//code
+function Welcome(){
+    return 
+}
+2. Class
+--------
+-> Your Class extend to React.Component.
+//code
+class Welcome extends React.Componets {
+    render(){
+        return 
+    }
+}
